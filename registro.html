@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>UPM - Padel</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/boxs.css">
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navbarsExampleDefault">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://www.upm.es" id="logo">
+                <img src="img/upm.png" alt="UPM">
+            </a>
+            <span id="logoNav">Padel U.P.M</span>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="instalaciones.html">Instalaciones</a></li>
+                <li><a href="reservar.html">Reservar</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="registro.html"><span class="glyphicon glyphicon-user"></span> Registro</a>
+                </li>
+                <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br><br><br>
+<div class="col-md-2">
+</div>
+<div class="col-md-8 backgroundBox">
+    <fieldset class="borderBox">
+        <legend class="fields">Registro de usuario</legend>
+        <form class="form-horizontal" role="form">
+            <div class="form-group">
+                <label for="username" class="col-sm-2 control-label">
+                    Usuario:
+                </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="username" placeholder="Identificador de usuario"
+                           required/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email" class="col-sm-2 control-label">
+                    Correo:
+                </label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email" placeholder="Email" required/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="passwordnew" class="col-sm-2 control-label">
+                    Clave:
+                </label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="passwordnew" placeholder="Clave" required/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="passwordrepet" class="col-sm-2 control-label">
+                    Repita la clave:
+                </label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="passwordrepet" placeholder="Repita la clave"
+                           required/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="birthDate" class="col-sm-2 control-label">
+                    Fecha de nacimiento:
+                </label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" id="birthDate" required/>
+                </div>
+            </div>
+            <div class="form-group text-center">
+                <button type="submit" class="btn btn-default">Enviar</button>
+            </div>
+        </form>
+    </fieldset>
+</div>
+<footer class="footer">
+    <div class="container">
+        <span class="text-muted">Copyright 2018 - All Rights Reserved</span>
+    </div>
+</footer>
+</body>
+</html>

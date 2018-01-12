@@ -1,0 +1,21 @@
+.borderBox {
+    border-radius: 5px;
+    border: 1.5px white solid;
+    padding: 20px;
+    margin: auto;
+}
+
+.fields {
+    border: none;
+    width: inherit;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: -1px;
+    color: white;
+}
+
+.backgroundBox {
+    background-color: #088944;
+    color: whitesmoke;
+    padding: 20px;
+}
